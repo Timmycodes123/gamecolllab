@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_house_floor",
+  "%Name":"Obj_floor_liner",
   "eventList":[],
   "managed":true,
-  "name":"Obj_house_floor",
+  "name":"Obj_floor_liner",
   "overriddenProperties":[],
   "parent":{
     "name":"Buildings",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Straw_house_floor",
-    "path":"sprites/Straw_house_floor/Straw_house_floor.yy",
+    "name":"Floor_liner",
+    "path":"sprites/Floor_liner/Floor_liner.yy",
   },
   "spriteMaskId":null,
   "visible":true,

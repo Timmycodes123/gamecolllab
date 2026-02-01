@@ -18,7 +18,6 @@ var inst = instance_nearest(x, y, Obj_house_open);
 if !place_empty(Object_player.x,Object_player.y, Obj_house_floor){
     show_debug_message("It works?")
     inst.image_alpha = 0.1;
-    Object_player.depth = -70
     collision_items = [tilemap, Obj_door, Obj_roof, Obj_wall, Obj_roof_tile, Side_wall, Obj_House_dark_wall, Obj_table, Obj_opposite_door, Obj_fence, FenceHalf, Obj_house_down, Obj_house]
 }
 else{
@@ -30,8 +29,8 @@ if (_hor != 0 or _ver != 0)
 {
     if (_ver > 0) sprite_index = spr_player_walk_down;
     else if (_ver < 0) sprite_index = spr_player_walk_up;
-    else if (_hor > 0) sprite_index = spr_player_walk_left;
-    else if (_hor < 0) sprite_index = spr_player_walk_right;     
+    else if (_hor > 0) sprite_index = spr_player_walk_right;
+    else if (_hor < 0) sprite_index = spr_player_walk_left;     
     // finding the player's previous direction
     facing = point_direction(0, 0, _hor, _ver);     
 }

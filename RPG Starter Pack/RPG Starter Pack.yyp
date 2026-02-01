@@ -41,7 +41,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.2.213",
+    "IDEVersion":"2024.14.3.217",
   },
   "name":"RPG Starter Pack",
   "resources":[
@@ -64,6 +64,7 @@
     {"id":{"name":"Obj_enemy1","path":"objects/Obj_enemy1/Obj_enemy1.yy",},},
     {"id":{"name":"Obj_fence","path":"objects/Obj_fence/Obj_fence.yy",},},
     {"id":{"name":"obj_fireball","path":"objects/obj_fireball/obj_fireball.yy",},},
+    {"id":{"name":"Obj_floor_liner","path":"objects/Obj_floor_liner/Obj_floor_liner.yy",},},
     {"id":{"name":"Obj_Hobin_house","path":"objects/Obj_Hobin_house/Obj_Hobin_house.yy",},},
     {"id":{"name":"Obj_House_dark_wall","path":"objects/Obj_House_dark_wall/Obj_House_dark_wall.yy",},},
     {"id":{"name":"Obj_house_down","path":"objects/Obj_house_down/Obj_house_down.yy",},},
@@ -106,6 +107,7 @@
     {"id":{"name":"Fence_half","path":"sprites/Fence_half/Fence_half.yy",},},
     {"id":{"name":"Fence","path":"sprites/Fence/Fence.yy",},},
     {"id":{"name":"Fireball","path":"sprites/Fireball/Fireball.yy",},},
+    {"id":{"name":"Floor_liner","path":"sprites/Floor_liner/Floor_liner.yy",},},
     {"id":{"name":"Hobin_House","path":"sprites/Hobin_House/Hobin_House.yy",},},
     {"id":{"name":"House_dark_wall","path":"sprites/House_dark_wall/House_dark_wall.yy",},},
     {"id":{"name":"House_turned","path":"sprites/House_turned/House_turned.yy",},},

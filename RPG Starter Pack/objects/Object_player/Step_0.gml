@@ -17,12 +17,13 @@ var inst = instance_nearest(x, y, Obj_house_open);
 
 if !place_empty(Object_player.x,Object_player.y, Obj_house_floor){
     show_debug_message("It works?")
-    inst.image_alpha = 0.1;
-    collision_items = [tilemap, Obj_door, Obj_roof, Obj_wall, Obj_roof_tile, Side_wall, Obj_House_dark_wall, Obj_table, Obj_opposite_door, Obj_fence, FenceHalf, Obj_house_down, Obj_house]
+    inst.depth = -4
+    inst.image_alpha = 0.2;
+    collision_items = [tilemap, Obj_door, Obj_roof, Obj_wall, Obj_roof_tile, Side_wall, Obj_House_dark_wall, Obj_table, Obj_opposite_door, Obj_fence, FenceHalf, Obj_house_down, Obj_house, Obj_floor_liner]
 }
 else{
     inst.image_alpha = 1
-    collision_items = [tilemap, Obj_door, Obj_roof, Obj_wall, Obj_roof_tile, Side_wall, Obj_House_dark_wall, Obj_table, Obj_opposite_door, Obj_fence, FenceHalf, Obj_house_down, Obj_house, Obj_house_open]
+    collision_items = [tilemap, Obj_door, Obj_roof, Obj_wall, Obj_roof_tile, Side_wall, Obj_House_dark_wall, Obj_table, Obj_opposite_door, Obj_fence, FenceHalf, Obj_house_down, Obj_house, Obj_house_open, Obj_floor_liner]
 }
 // walking animations
 if (_hor != 0 or _ver != 0)

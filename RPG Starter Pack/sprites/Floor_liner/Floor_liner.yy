@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"Floor_liner",
   "bboxMode":0,
-  "bbox_bottom":127,
+  "bbox_bottom":126,
   "bbox_left":73,
   "bbox_right":150,
   "bbox_top":60,

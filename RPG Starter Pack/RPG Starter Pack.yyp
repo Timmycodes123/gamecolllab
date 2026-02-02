@@ -116,6 +116,7 @@
     {"id":{"name":"Hobin_House","path":"sprites/Hobin_House/Hobin_House.yy",},},
     {"id":{"name":"House_alternate1","path":"sprites/House_alternate1/House_alternate1.yy",},},
     {"id":{"name":"House_alternate2","path":"sprites/House_alternate2/House_alternate2.yy",},},
+    {"id":{"name":"House_alternate3_down","path":"sprites/House_alternate3_down/House_alternate3_down.yy",},},
     {"id":{"name":"House_alternate3","path":"sprites/House_alternate3/House_alternate3.yy",},},
     {"id":{"name":"House_dark_wall","path":"sprites/House_dark_wall/House_dark_wall.yy",},},
     {"id":{"name":"House_turned","path":"sprites/House_turned/House_turned.yy",},},

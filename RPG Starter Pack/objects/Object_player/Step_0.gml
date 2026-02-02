@@ -10,7 +10,7 @@ if (keyboard_check_released(vk_shift)){
 // movement
 var _hor = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 var _ver = keyboard_check(ord("S")) - keyboard_check(ord("W"));
-var collision_layers = [tilemap]
+var collision_layers = [tilemap_col1]
 move_and_collide(_hor * move_speed, _ver * move_speed, collision_items, undefined, undefined, undefined, move_speed, move_speed);
 
 var inst = instance_nearest(x, y, Obj_house_open);
@@ -19,11 +19,11 @@ if !place_empty(Object_player.x,Object_player.y, Obj_house_floor){
     show_debug_message("It works?")
     inst.depth = -4
     inst.image_alpha = 0.2;
-    collision_items = [tilemap, Obj_door, Obj_roof, Obj_wall, Obj_roof_tile, Side_wall, Obj_House_dark_wall, Obj_table, Obj_opposite_door, Obj_fence, FenceHalf, Obj_house_down, Obj_house, Obj_floor_liner]
+    collision_items = [tilemap_col1, Obj_door, Obj_roof, Obj_wall, Obj_roof_tile, Side_wall, Obj_House_dark_wall, Obj_table, Obj_opposite_door, Obj_fence, FenceHalf, Obj_house_down, Obj_house, Obj_floor_liner, Building_parent]
 }
 else{
     inst.image_alpha = 1
-    collision_items = [tilemap, Obj_door, Obj_roof, Obj_wall, Obj_roof_tile, Side_wall, Obj_House_dark_wall, Obj_table, Obj_opposite_door, Obj_fence, FenceHalf, Obj_house_down, Obj_house, Obj_house_open, Obj_floor_liner]
+    collision_items = [tilemap_col1, Obj_door, Obj_roof, Obj_wall, Obj_roof_tile, Side_wall, Obj_House_dark_wall, Obj_table, Obj_opposite_door, Obj_fence, FenceHalf, Obj_house_down, Obj_house, Obj_house_open, Obj_floor_liner,Building_parent]
 }
 // walking animations
 if (_hor != 0 or _ver != 0)

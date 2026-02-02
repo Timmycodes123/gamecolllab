@@ -6,8 +6,8 @@
   "name":"Obj_house_down",
   "overriddenProperties":[],
   "parent":{
-    "name":"Buildings",
-    "path":"folders/Objects/Obj_assets/Buildings.yy",
+    "name":"Straw_houses",
+    "path":"folders/Objects/Obj_assets/Buildings/Straw_houses.yy",
   },
   "parentObjectId":null,
   "persistent":false,

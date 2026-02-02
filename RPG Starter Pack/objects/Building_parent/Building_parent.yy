@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_house_open",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Building_parent",
+  "eventList":[],
   "managed":true,
-  "name":"Obj_house_open",
+  "name":"Building_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Straw_houses",
-    "path":"folders/Objects/Obj_assets/Buildings/Straw_houses.yy",
+    "name":"Parents",
+    "path":"folders/Objects/Parents.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,11 +26,8 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
-  "spriteId":{
-    "name":"Straw_house_Open",
-    "path":"sprites/Straw_house_Open/Straw_house_Open.yy",
-  },
+  "solid":false,
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

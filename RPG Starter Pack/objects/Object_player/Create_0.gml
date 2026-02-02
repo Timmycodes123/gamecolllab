@@ -1,6 +1,6 @@
 move_speed = 1;
 
-tilemap = layer_tilemap_get_id("Tiles_Col");
+tilemap_col1 = layer_tilemap_get_id("Collisions");
 
 //starting stats
 hp = 10;
@@ -28,4 +28,4 @@ function add_xp(_xp_to_add)
     }    
 }
 audio_play_sound(Cool_theme, 0, true);
-collision_items = [tilemap, Obj_door, Obj_roof, Obj_wall, Obj_roof_tile, Side_wall, Obj_House_dark_wall, Obj_table, Obj_opposite_door, Obj_fence, FenceHalf, Obj_house_down, Obj_house, Obj_house_open, Obj_floor_liner]
+collision_items = [tilemap_col1, Obj_door, Obj_roof, Obj_wall, Obj_roof_tile, Side_wall, Obj_House_dark_wall, Obj_table, Obj_opposite_door, Obj_fence, FenceHalf, Obj_house_down, Obj_house, Obj_house_open, Obj_floor_liner, Building_parent]

@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_house_open",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Obj_Wall_extension",
+  "eventList":[],
   "managed":true,
-  "name":"Obj_house_open",
+  "name":"Obj_Wall_extension",
   "overriddenProperties":[],
   "parent":{
     "name":"Straw_houses",
@@ -33,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"Straw_house_Open",
-    "path":"sprites/Straw_house_Open/Straw_house_Open.yy",
+    "name":"Wall_extension",
+    "path":"sprites/Wall_extension/Wall_extension.yy",
   },
   "spriteMaskId":null,
   "visible":true,

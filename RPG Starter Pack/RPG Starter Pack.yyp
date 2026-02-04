@@ -102,6 +102,7 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"villager_room","path":"rooms/villager_room/villager_room.yy",},},
     {"id":{"name":"Dialogue","path":"scripts/Dialogue/Dialogue.yy",},},
+    {"id":{"name":"Spells","path":"scripts/Spells/Spells.yy",},},
     {"id":{"name":"World_clock","path":"scripts/World_clock/World_clock.yy",},},
     {"id":{"name":"Cool_theme","path":"sounds/Cool_theme/Cool_theme.yy",},},
     {"id":{"name":"Altar","path":"sprites/Altar/Altar.yy",},},

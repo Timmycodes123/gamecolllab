@@ -1,7 +1,7 @@
 
 
 if (keyboard_check_pressed(vk_shift)){
-    move_speed = 1.75;
+    move_speed = 2;
 }
 if (keyboard_check_released(vk_shift)){
     move_speed = 1;

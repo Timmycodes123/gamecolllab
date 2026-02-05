@@ -1,4 +1,4 @@
-function fireball_cast(){
+/*function fireball_cast(){
         return {
             name: "Fireball",
             icon: spr_fireball_icon,

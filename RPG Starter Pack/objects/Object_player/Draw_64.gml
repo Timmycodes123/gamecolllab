@@ -33,4 +33,4 @@ draw_text(_dx + _barw / 2, _dy + _barh / 2, $"Level {level}");
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 
-draw_sprite_stretched(spr_box, 0, 0, by, bw, bh)
+//draw_sprite_stretched(spr_box, 0, 0, by, bw, bh)

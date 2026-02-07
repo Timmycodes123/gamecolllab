@@ -15,7 +15,6 @@ move_and_collide(_hor * move_speed, _ver * move_speed, collision_items, undefine
 
 
 if !place_empty(Object_player.x,Object_player.y, Obj_house_floor){
-    show_debug_message("It works?")
     House_fade_parent.image_alpha = 0.2;
     collision_items = [tilemap_col1, Obj_door, Obj_roof, Obj_wall, Obj_roof_tile, Side_wall, Obj_House_dark_wall, Obj_table, Obj_opposite_door, Obj_fence, FenceHalf, Obj_house_down, Obj_house, Obj_floor_liner, Building_parent]
 }
@@ -51,5 +50,8 @@ if(keyboard_check_pressed(vk_space))
     _inst.image_angle = facing;
     _inst.damage *= damage;
 }    
+
+
+
 
 // Quest Checkers

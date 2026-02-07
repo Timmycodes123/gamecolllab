@@ -2,7 +2,10 @@ var _dx = 16;
 var _dy = 16;
 var _barw = 256;
 var _barh = 32;
+var bw = display_get_width();
+var bh = display_get_height();
 
+by = display_get_gui_height() * .7;
 // text properties
 draw_set_font(Font1);
 // halign is horizontal line
@@ -29,3 +32,5 @@ draw_text(_dx + _barw / 2, _dy + _barh / 2, $"Level {level}");
 // Reset properties
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
+
+draw_sprite_stretched(spr_box, 0, 0, by, bw, bh)

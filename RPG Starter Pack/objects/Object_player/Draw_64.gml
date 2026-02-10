@@ -36,42 +36,43 @@ draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 
 
-
 slot_count = 10;
-slot_size  = 192;
 
-selected_slot = -1;   
-slot_x = array_create(slot_count, 0);  
-slot_y = array_create(slot_count, 0); 
-slot_sprite = array_create(slot_count, -1);
-var gui_w = display_get_gui_width(); 
-var gui_h = display_get_gui_height(); 
+// GUI dimensions
+var gui_w = display_get_gui_width();
+var gui_h = display_get_gui_height();
+
+// Bar dimensions
 var bar_width = gui_w * 0.7;
+var bar_x = (gui_w - bar_width) / 2;
 
-var bar_x = (gui_w - bar_width) / 2; 
-var bar_y = gui_h - slot_size - 16;
-slot_size = bar_width / slot_count;  
+// IMPORTANT: calculate slot_size BEFORE drawing anything
+var slot_size = bar_width / slot_count;
 
-draw_set_color(c_black); 
-draw_set_alpha(0.5); 
-draw_roundrect(bar_x - 8, bar_y - 8, bar_x + bar_width + 8, bar_y + slot_size + 8, false); 
-draw_set_alpha(1); 
-var xx = bar_x; 
-for (var i = 0; i < slot_count; i++) { 
-    slot_x[i] = xx; 
-    slot_y[i] = bar_y - slot_size;
-    
-    if (i == selected_slot) { 
-        draw_set_color(c_yellow); 
-        draw_rectangle(xx - 4, bar_y - 4, xx + slot_size + 4, bar_y + slot_size + 4, false); 
+// Slot row position
+var bar_y = gui_h - slot_size - 24;
+
+// Draw background bar
+draw_set_color(c_black);
+draw_set_alpha(0.5);
+draw_roundrect(bar_x - 8, bar_y - 8, bar_x + bar_width + 8, bar_y + slot_size + 8, false);
+draw_set_alpha(1);
+
+// Draw slots
+var xx = bar_x;
+
+for (var i = 0; i < slot_count; i++)
+{
+    // Highlight
+    if (i == selected_slot)
+    {
+        draw_set_color(c_yellow);
+        draw_rectangle(xx - 3, bar_y - 3, xx + slot_size + 3, bar_y + slot_size + 3, false);
     }
-    draw_set_color(c_white); 
-    draw_rectangle(xx, bar_y, xx + slot_size, bar_y + slot_size, false); 
-   
-    // Optional sprite icon 
-/*    if (sprite_exists(slot_sprite[i])) { 
-        draw_sprite_ext(slot_sprite[i], 0, xx + slot_size/2, bar_y + slot_size/2, 1, 1, 0, c_white, 1); 
-    }
- */ 
-    xx += slot_size; 
+
+    // Slot box
+    draw_set_color(c_white);
+    draw_rectangle(xx, bar_y, xx + slot_size, bar_y + slot_size, false);
+
+    xx += slot_size;
 }

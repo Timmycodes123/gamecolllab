@@ -1,4 +1,4 @@
-selected_slot = 0;
+
 
 if (keyboard_check_pressed(vk_shift)){
     move_speed = 2;

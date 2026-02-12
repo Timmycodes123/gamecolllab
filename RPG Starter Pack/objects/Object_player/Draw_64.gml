@@ -36,8 +36,6 @@ draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 
 
-slot_count = 10;
-
 // GUI dimensions
 var gui_w = display_get_gui_width();
 var gui_h = display_get_gui_height();
@@ -46,8 +44,8 @@ var gui_h = display_get_gui_height();
 var bar_width = gui_w * 0.7;
 var bar_x = (gui_w - bar_width) / 2;
 
-// IMPORTANT: calculate slot_size BEFORE drawing anything
-var slot_size = bar_width / slot_count;
+// Slot size WITH gaps accounted for
+var slot_size = (bar_width - (slot_gap * (slot_count - 1))) / slot_count;
 
 // Slot row position
 var bar_y = gui_h - slot_size - 24;
@@ -63,7 +61,7 @@ var xx = bar_x;
 
 for (var i = 0; i < slot_count; i++)
 {
-    // Highlight
+    // Highlight selected slot
     if (i == selected_slot)
     {
         draw_set_color(c_yellow);
@@ -74,5 +72,5 @@ for (var i = 0; i < slot_count; i++)
     draw_set_color(c_white);
     draw_rectangle(xx, bar_y, xx + slot_size, bar_y + slot_size, false);
 
-    xx += slot_size;
+    xx += slot_size + slot_gap;
 }

@@ -70,7 +70,7 @@ for (var i = 0; i < slot_count; i++)
 
     // Slot box
     draw_set_color(c_white);
-    draw_rectangle(xx, bar_y, xx + slot_size, bar_y + slot_size, false);
-
+    //draw_rectangle(xx, bar_y, xx + slot_size, bar_y + slot_size, false);
+    draw_sprite_ext(Fireball_icon, 0, xx, bar_y, 4.4, 4.4, 0, c_white, 1)
     xx += slot_size + slot_gap;
 }

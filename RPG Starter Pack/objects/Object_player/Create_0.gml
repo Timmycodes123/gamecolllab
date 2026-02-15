@@ -32,3 +32,12 @@ collision_items = [tilemap_col1, Obj_door, Obj_roof, Obj_wall, Obj_roof_tile, Si
 slot_count = 10;
 slot_gap   = 6;  
 selected_slot = -1;
+// slot spells
+slot1 = Fireball_icon
+slot2 = -1
+slot3 = -1
+slot4 = -1
+slot5 = -1
+slot6 = -1
+slot7 = -1
+

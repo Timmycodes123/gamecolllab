@@ -7,6 +7,8 @@ var _barh = 32;
 var bw = display_get_width();
 var bh = display_get_height();
 
+    
+
 by = display_get_gui_height() * .7;
 // text properties
 draw_set_font(Font1);
@@ -59,18 +61,34 @@ draw_set_alpha(1);
 // Draw slots
 var xx = bar_x;
 
+if slot1 == Fireball_icon{
+    draw_sprite_stretched(Fireball_icon, 0, xx, bar_y, slot_size, slot_size )
+}
+for (var i = 0; i < slot_count; i++)
+{
+    if (keyboard_check_pressed(ord("1") + i))
+    {
+        selected_slot = i;
+    }
+}
+
+if (keyboard_check_pressed(ord("0")))
+{
+    selected_slot = 9;
+}
+
 for (var i = 0; i < slot_count; i++)
 {
     // Highlight selected slot
     if (i == selected_slot)
     {
-        draw_set_color(c_yellow);
-        draw_rectangle(xx - 3, bar_y - 3, xx + slot_size + 3, bar_y + slot_size + 3, false);
+        draw_set_color(c_white);
+        draw_rectangle(xx - 3, bar_y - 3, xx + slot_size + 3, bar_y + slot_size + 3, true);
     }
 
     // Slot box
     draw_set_color(c_white);
     //draw_rectangle(xx, bar_y, xx + slot_size, bar_y + slot_size, false);
-    draw_sprite_ext(Fireball_icon, 0, xx, bar_y, 4.4, 4.4, 0, c_white, 1)
+    
     xx += slot_size + slot_gap;
 }

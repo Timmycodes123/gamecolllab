@@ -49,21 +49,7 @@ if(keyboard_check_pressed(vk_space))
     // Basing sword direction off of recent input
     _inst.image_angle = facing;
     _inst.damage *= damage;
-}    
-for (var i = 0; i < slot_count; i++)
-{
-    if (keyboard_check_pressed(ord("1") + i))
-    {
-        selected_slot = i;
-    }
 }
-
-if (keyboard_check_pressed(ord("0")))
-{
-    selected_slot = 9;
-}
-
-
 
 
 // Quest Checkers

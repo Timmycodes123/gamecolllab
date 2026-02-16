@@ -20,6 +20,7 @@
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"28cb3712-9894-42b3-a93e-efc7d2b1f7dc","blendMode":0,"displayName":"default","isLocked":false,"name":"28cb3712-9894-42b3-a93e-efc7d2b1f7dc","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"c8e2abbd-1b63-4db4-9362-0dff179075c1","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"c8e2abbd-1b63-4db4-9362-0dff179075c1","opacity":31.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Straw_house",
   "nineSlice":null,

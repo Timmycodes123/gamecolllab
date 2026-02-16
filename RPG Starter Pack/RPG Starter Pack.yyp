@@ -105,7 +105,7 @@
     {"id":{"name":"Wolf","path":"objects/Wolf/Wolf.yy",},},
     {"id":{"name":"yellow_flower","path":"objects/yellow_flower/yellow_flower.yy",},},
     {"id":{"name":"Campaign_1","path":"rooms/Campaign_1/Campaign_1.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Cutscene1","path":"rooms/Cutscene1/Cutscene1.yy",},},
     {"id":{"name":"villager_room","path":"rooms/villager_room/villager_room.yy",},},
     {"id":{"name":"Dialogue","path":"scripts/Dialogue/Dialogue.yy",},},
     {"id":{"name":"Spells","path":"scripts/Spells/Spells.yy",},},
@@ -183,8 +183,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"Cutscene1","path":"rooms/Cutscene1/Cutscene1.yy",},},
     {"roomId":{"name":"Campaign_1","path":"rooms/Campaign_1/Campaign_1.yy",},},
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"villager_room","path":"rooms/villager_room/villager_room.yy",},},
   ],
   "templateType":"game",

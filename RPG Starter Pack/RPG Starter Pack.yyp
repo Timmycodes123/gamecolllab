@@ -183,8 +183,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Cutscene1","path":"rooms/Cutscene1/Cutscene1.yy",},},
     {"roomId":{"name":"Campaign_1","path":"rooms/Campaign_1/Campaign_1.yy",},},
+    {"roomId":{"name":"Cutscene1","path":"rooms/Cutscene1/Cutscene1.yy",},},
     {"roomId":{"name":"villager_room","path":"rooms/villager_room/villager_room.yy",},},
   ],
   "templateType":"game",

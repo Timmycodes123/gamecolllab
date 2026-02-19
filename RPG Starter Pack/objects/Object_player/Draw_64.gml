@@ -64,6 +64,9 @@ var xx = bar_x;
 if slot1 == Fireball_icon{
     draw_sprite_stretched(Fireball_icon, 0, xx, bar_y, slot_size, slot_size )
 }
+if slot2 == Fireball_icon{
+    draw_sprite_stretched(Fireball_icon, 0, xx+slot_gap+slot_size, bar_y, slot_size, slot_size )
+}
 for (var i = 0; i < slot_count; i++)
 {
     if (keyboard_check_pressed(ord("1") + i))
@@ -92,3 +95,4 @@ for (var i = 0; i < slot_count; i++)
     
     xx += slot_size + slot_gap;
 }
+//draw_sprite(Mana_beam, 1, Object_player.x, Object_player.y );

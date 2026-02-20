@@ -3,22 +3,22 @@ function slot_check(){
     can_shoot_laser = false
     can_hit = false;
     if selected_slot == 0{
-        if slot1 == Fireball_icon{
+        if slot[1] == Fireball_icon{
             can_shoot_fire = true
         }
     }
     if selected_slot == 1{
-        if slot1 == Fireball_icon{
+        if slot[2] == Fireball_icon{
             can_shoot_fire = true
         }
     }
     if selected_slot == 2{
-        if slot1 == Fireball_icon{
+        if slot[3] == Fireball_icon{
             can_shoot_fire = true
         }
     }
     if selected_slot == 3{
-        if slot1 == Fireball_icon{
+        if slot[4] == Fireball_icon{
             can_shoot_fire = true
         }
     }

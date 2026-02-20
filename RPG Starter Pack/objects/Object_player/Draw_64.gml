@@ -60,12 +60,17 @@ draw_set_alpha(1);
 
 // Draw slots
 var xx = bar_x;
-
-if slot1 == Fireball_icon{
-    draw_sprite_stretched(Fireball_icon, 0, xx, bar_y, slot_size, slot_size )
-}
-if slot2 == Fireball_icon{
-    draw_sprite_stretched(Fireball_icon, 0, xx+slot_gap+slot_size, bar_y, slot_size, slot_size )
+//draw_sprite_stretched(slot1, 0, xx, bar_y, slot_size, slot_size )
+//draw_sprite_stretched(slot2, 0, xx+slot_gap+slot_size, bar_y, slot_size, slot_size )
+for (var i = 0; i < slot_count; i++){
+    if slot[i] != -1 and not first_draw{
+        draw_sprite_stretched(slot[i], 0, xx, bar_y, slot_size, slot_size );
+        first_draw = true;
+    }
+    if slot[i] != -1 and first_draw{
+        draw_sprite_stretched(slot[i], 0,xx+slot_gap+slot_size, bar_y, slot_size, slot_size);
+    }
+    
 }
 for (var i = 0; i < slot_count; i++)
 {

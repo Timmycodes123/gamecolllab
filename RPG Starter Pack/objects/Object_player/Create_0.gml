@@ -34,11 +34,11 @@ slot_gap = 6;
 selected_slot = -1;
 first_draw = false
 // slot spells
-slot[0] = -1
+slot[0] = Fireball_icon
 slot[1] = Fireball_icon
 slot[2] = -1
 slot[3] = -1
-slot[4] = -1
+slot[4] = Fireball_icon
 slot[5] = -1
 slot[6] = -1
 slot[7] = Fireball_icon

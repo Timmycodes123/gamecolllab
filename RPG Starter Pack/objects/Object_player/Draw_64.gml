@@ -64,11 +64,11 @@ var xx = bar_x;
 //draw_sprite_stretched(slot2, 0, xx+slot_gap+slot_size, bar_y, slot_size, slot_size )
 for (var i = 0; i < slot_count; i++){
     if slot[i] != -1 and not first_draw{
-        draw_sprite_stretched(slot[i], 0, xx, bar_y, slot_size, slot_size );
+        draw_sprite_stretched(slot[i], 0, xx+slot_gap/2, bar_y, slot_size, slot_size );
         first_draw = true;
     }
     if slot[i] != -1 and first_draw{
-        draw_sprite_stretched(slot[i], 0,xx+slot_gap+slot_size, bar_y, slot_size, slot_size);
+        draw_sprite_stretched(slot[i], 0,xx+(slot_gap+slot_size)*i, bar_y, slot_size, slot_size);
     }
     
 }

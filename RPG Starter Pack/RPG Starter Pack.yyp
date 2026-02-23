@@ -55,6 +55,7 @@
   "resources":[
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"Building_parent","path":"objects/Building_parent/Building_parent.yy",},},
+    {"id":{"name":"Circle_manager","path":"objects/Circle_manager/Circle_manager.yy",},},
     {"id":{"name":"Enemy_2","path":"objects/Enemy_2/Enemy_2.yy",},},
     {"id":{"name":"Enemy_state_controller","path":"objects/Enemy_state_controller/Enemy_state_controller.yy",},},
     {"id":{"name":"Fade_controller","path":"objects/Fade_controller/Fade_controller.yy",},},

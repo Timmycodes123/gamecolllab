@@ -36,7 +36,7 @@ first_draw = false
 // slot spells
 slot[0] = Fireball_icon
 slot[1] = Fireball_icon
-slot[2] = -1
+slot[2] = Mana_beam_icon
 slot[3] = -1
 slot[4] = Fireball_icon
 slot[5] = -1

@@ -55,7 +55,6 @@
   "resources":[
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"Building_parent","path":"objects/Building_parent/Building_parent.yy",},},
-    {"id":{"name":"Circle_manager","path":"objects/Circle_manager/Circle_manager.yy",},},
     {"id":{"name":"Enemy_2","path":"objects/Enemy_2/Enemy_2.yy",},},
     {"id":{"name":"Enemy_state_controller","path":"objects/Enemy_state_controller/Enemy_state_controller.yy",},},
     {"id":{"name":"Fade_controller","path":"objects/Fade_controller/Fade_controller.yy",},},
@@ -65,6 +64,7 @@
     {"id":{"name":"Hobin_rood","path":"objects/Hobin_rood/Hobin_rood.yy",},},
     {"id":{"name":"House_fade_parent","path":"objects/House_fade_parent/House_fade_parent.yy",},},
     {"id":{"name":"Jester","path":"objects/Jester/Jester.yy",},},
+    {"id":{"name":"Mana_Beam","path":"objects/Mana_Beam/Mana_Beam.yy",},},
     {"id":{"name":"Obj_altar","path":"objects/Obj_altar/Obj_altar.yy",},},
     {"id":{"name":"obj_attack","path":"objects/obj_attack/obj_attack.yy",},},
     {"id":{"name":"Obj_collision_door_dot","path":"objects/Obj_collision_door_dot/Obj_collision_door_dot.yy",},},
@@ -135,6 +135,7 @@
     {"id":{"name":"House_dark_wall","path":"sprites/House_dark_wall/House_dark_wall.yy",},},
     {"id":{"name":"House_turned","path":"sprites/House_turned/House_turned.yy",},},
     {"id":{"name":"House1","path":"sprites/House1/House1.yy",},},
+    {"id":{"name":"Mana_beam_icon","path":"sprites/Mana_beam_icon/Mana_beam_icon.yy",},},
     {"id":{"name":"Mana_beam","path":"sprites/Mana_beam/Mana_beam.yy",},},
     {"id":{"name":"Npc_3","path":"sprites/Npc_3/Npc_3.yy",},},
     {"id":{"name":"Opposite_door","path":"sprites/Opposite_door/Opposite_door.yy",},},

@@ -1,10 +1,14 @@
 function slot_check(){
     can_shoot_fire = false;
-    can_shoot_laser = false
+    can_shoot_laser = false;
+    can_shoot_beam = false;
     can_hit = false;
     for (var i = 0; i < slot_count; i++){
         if slot[i] == Fireball_icon and selected_slot == i{
             can_shoot_fire = true;
+        }
+        if slot[i] == Mana_beam_icon and selected_slot == i{
+            can_shoot_beam = true;
         }
     }
     if can_shoot_fire{
@@ -13,8 +17,16 @@ function slot_check(){
         _fireball.image_angle = facing;
         can_shoot = false;
         alarm[1] = 30; 
+        } 
+    if can_shoot_beam{
+        if can_shoot = true {
+            var mana_beam = instance_create_depth(x, y, depth, Mana_Beam);   
+            mana_beam.image_angle = facing;
+        can_shoot = false;
+        alarm[1] = 30; 
         }
     }        
+}    
 }    
     /*    if selected_slot == 0{
         if slot[1] == Fireball_icon{
@@ -47,3 +59,4 @@ function slot_check(){
 }
 
 }
+ * / 

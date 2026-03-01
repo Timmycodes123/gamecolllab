@@ -103,6 +103,7 @@
     {"id":{"name":"pink_flower","path":"objects/pink_flower/pink_flower.yy",},},
     {"id":{"name":"portal1","path":"objects/portal1/portal1.yy",},},
     {"id":{"name":"Side_wall","path":"objects/Side_wall/Side_wall.yy",},},
+    {"id":{"name":"Tiled_house","path":"objects/Tiled_house/Tiled_house.yy",},},
     {"id":{"name":"Treehouse_door_obj","path":"objects/Treehouse_door_obj/Treehouse_door_obj.yy",},},
     {"id":{"name":"Wolf","path":"objects/Wolf/Wolf.yy",},},
     {"id":{"name":"yellow_flower","path":"objects/yellow_flower/yellow_flower.yy",},},

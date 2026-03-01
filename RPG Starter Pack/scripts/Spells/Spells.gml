@@ -12,22 +12,23 @@ function slot_check(){
         }
     }
     if can_shoot_fire{
-        if can_shoot = true {
+        if can_shoot == true {
         var _fireball = instance_create_depth(x, y, depth, obj_fireball);   
         _fireball.image_angle = facing;
         can_shoot = false;
         alarm[1] = 30; 
         } 
+    }    
     if can_shoot_beam{
-        if can_shoot = true {
+        if can_shoot == true {
             var mana_beam = instance_create_depth(x, y, depth, Mana_Beam);   
             mana_beam.image_angle = facing;
-        can_shoot = false;
-        alarm[1] = 30; 
+            can_shoot = false;
+            alarm[1] = 30; 
         }
     }        
 }    
-}    
+    
     /*    if selected_slot == 0{
         if slot[1] == Fireball_icon{
             can_shoot_fire = true

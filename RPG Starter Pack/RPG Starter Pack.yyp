@@ -74,6 +74,7 @@
     {"id":{"name":"Obj_enemy_parent","path":"objects/Obj_enemy_parent/Obj_enemy_parent.yy",},},
     {"id":{"name":"Obj_enemy1","path":"objects/Obj_enemy1/Obj_enemy1.yy",},},
     {"id":{"name":"Obj_fence","path":"objects/Obj_fence/Obj_fence.yy",},},
+    {"id":{"name":"obj_fireball_enemy","path":"objects/obj_fireball_enemy/obj_fireball_enemy.yy",},},
     {"id":{"name":"obj_fireball","path":"objects/obj_fireball/obj_fireball.yy",},},
     {"id":{"name":"Obj_floor_liner","path":"objects/Obj_floor_liner/Obj_floor_liner.yy",},},
     {"id":{"name":"Obj_hAlt1","path":"objects/Obj_hAlt1/Obj_hAlt1.yy",},},

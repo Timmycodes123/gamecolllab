@@ -1,14 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Mana_Beam",
+  "%Name":"obj_fireball_enemy",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Obj_enemy_parent","path":"objects/Obj_enemy_parent/Obj_enemy_parent.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Mana_Beam",
+  "name":"obj_fireball_enemy",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -33,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Mana_beam",
-    "path":"sprites/Mana_beam/Mana_beam.yy",
+    "name":"Fireball",
+    "path":"sprites/Fireball/Fireball.yy",
   },
   "spriteMaskId":null,
   "visible":true,

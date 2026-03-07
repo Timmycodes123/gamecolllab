@@ -22,7 +22,7 @@ function slot_check(){
     if can_shoot_beam{
         if can_shoot == true {
             var mana_beam = instance_create_depth(x, y, depth, Mana_Beam);   
-            mana_beam.image_angle = facing;
+            mana_beam.image_angle = point_direction(x, y, mouse_x, mouse_y);
             can_shoot = false;
             alarm[1] = 30; 
         }

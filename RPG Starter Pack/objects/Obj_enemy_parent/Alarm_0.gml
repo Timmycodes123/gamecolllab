@@ -3,6 +3,7 @@ if(instance_exists(Object_player) && distance_to_object(Object_player) < distanc
 {
     target_x = Object_player.x;
     target_y = Object_player.y;
+    instance_create_layer(Obj_enemy_parent.x, Obj_enemy_parent.y, "Instances", obj_fireball_enemy);
 }
 else
 {
@@ -11,3 +12,7 @@ else
 }
 
 alarm[0] = 60;
+if distance_to_player < 10{
+    instance_create_layer(Obj_enemy_parent.x, Obj_enemy_parent.y, "Instances", obj_attack)
+     
+}

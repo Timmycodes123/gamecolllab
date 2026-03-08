@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Walls",
-    "path":"folders/Sprites/Imported_assets/Walls.yy",
+    "path":"folders/Imported_assets/Walls.yy",
   },
   "parentObjectId":null,
   "persistent":false,

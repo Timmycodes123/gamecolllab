@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Imported_assets",
-    "path":"folders/Sprites/Imported_assets.yy",
+    "path":"folders/Imported_assets.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

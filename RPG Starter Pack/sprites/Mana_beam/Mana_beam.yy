@@ -30,7 +30,7 @@
   ],
   "name":"Mana_beam",
   "nineSlice":null,
-  "origin":4,
+  "origin":3,
   "parent":{
     "name":"Spells",
     "path":"folders/Sprites/Spells.yy",
@@ -103,7 +103,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":32,
+    "xorigin":0,
     "yorigin":32,
   },
   "swatchColours":null,
